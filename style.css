@@ -1,0 +1,33 @@
+@import url('https://fonts.cdnfonts.com/css/bertholdr-mainzer-fraktur');
+
+@keyframes background {
+    0% {background-color: black;}
+    50% {background-color: rgb(60, 0, 10);}
+    100% {background-color: black;}
+}
+
+body {
+    animation: background 1.5s infinite;
+    background-color: black;
+    background-image: url("/assets/cs.gif");
+    background-position: center;
+    text-align: center;
+    margin: 12px 12px 12px 12px;
+    font-family: 'Bertholdr Mainzer Fraktur', sans-serif;
+    letter-spacing: 4px;
+}
+
+.index {
+    width: fit-content;
+    background-color: rgba(1,1,1,0.75);
+    margin: auto;
+    color: white;
+    padding: 1% 2% 1% 2%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
